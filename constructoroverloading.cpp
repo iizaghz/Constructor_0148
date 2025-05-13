@@ -31,5 +31,11 @@ void mahasiswa::cetak(){
 int main(){
     mahasiswa mhs1(102030); //hanya nim
     mahasiswa mhs2("Andi"); //hanya nama
-     mahasiswa mhs3(010203, "Santi"); //NIM dan nama
+    mahasiswa mhs3(010203, "Santi"); //NIM dan nama
+
+    //tampil nilai 
+    cout << "Masukkan 1 :"; mhs1.cetak();
+    cout << "Masukkan 2 :"; mhs2.cetak();
+    cout << "Masukkan 3 :"; mhs3.cetak();
+    return 0;
 }
