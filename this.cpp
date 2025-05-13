@@ -4,7 +4,7 @@ using namespace std;
 class buku {
     string judul;
     public:
-        string satget(string jdl)
+        string setget(string jdl)
         {
             //nilai parameter 'judul' untuk member variabel 'judul'
             this->judul =jdl;
@@ -12,3 +12,9 @@ class buku {
             return this->judul;
         }
 };
+
+int main(){
+    buku bukunya;
+    cout << bukunya.setget ("Matemetika");
+    return 0;
+}
